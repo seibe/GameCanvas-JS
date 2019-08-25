@@ -16,7 +16,7 @@ class Game extends GameBase {
         gc.clearScreen();
 
         // ここから、画像を表示する命令を記述していく
-        gc.drawImage("img0.png", 0, 0);
+        gc.drawImage(0, 0, 0);
         gc.setColor(0, 0, 0);
         gc.drawString("この文字と青空の画像が見えていれば成功です", 60, 220);
     }

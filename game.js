@@ -3,7 +3,9 @@ import { gc, GameBase } from "./lib/gamecanvas.js";
 
 class Game extends GameBase {
     /********* 初期化の手順はこちらに *********/
-    initGame() { }
+    initGame() {
+        gc.profilerEnabled = true;
+    }
     enterGame() { }
 
     /********* フレーム計算処理はこちらに *********/
@@ -18,10 +20,6 @@ class Game extends GameBase {
         gc.drawImage(0, 0, 0);
         gc.setColor(0, 0, 0);
         gc.drawString("この文字と青空の画像が見えていれば成功です", 60, 220);
-
-        const begin = window.performance.now();
-        const waitTime = gc.rand(1, 3);
-        while (window.performance.now() - begin < waitTime) {}
     }
 
     /********* 終了時の処理はこちらに *********/

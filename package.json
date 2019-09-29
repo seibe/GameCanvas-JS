@@ -1,0 +1,30 @@
+{
+  "name": "gamecanvas-js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gc-c2d.js",
+  "scripts": {
+    "release": "babel src -d lib",
+    "build": "babel src -d lib --source-maps",
+    "watch": "babel src -w -d lib --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seibe/GameCanvas-JS.git"
+  },
+  "author": "Seibe TAKAHASHI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seibe/GameCanvas-JS/issues"
+  },
+  "homepage": "https://github.com/seibe/GameCanvas-JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/gamecanvas.js"],"names":["gc","GameBase"],"mappings":"AACA,SAASA,EAAT,EAAaC,QAAb,QAA6B,wBAA7B;AACA,SAASD,EAAT,EAAaC,QAAb","sourcesContent":["\r\nimport { gc, GameBase } from \"./gamecanvas/gc-c2d.js\";\r\nexport { gc, GameBase };\r\n"],"file":"gamecanvas.js"}
